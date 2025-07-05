@@ -20,7 +20,7 @@ jobs:
       - name: Regenerate lock file
         run: poetry lock
       - name: Install deps
-        run: poetry install --no‑interaction
+        run: poetry install
 
       - name: Run tests
         run: poetry run pytest -q
