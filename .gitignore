@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+.venv/
+
+# Docker
+*.pid
+
+# Misc
+.DS_Store
+
+# Poetry
+poetry.lock
