@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "ruff check . && ruff format ."
+          },
+          {
+            "type": "command",
+            "command": "pytest -q || (echo 'Tests failed' && exit 1)"
+          }
+        ]
+      }
+    ]
+  }
+}
