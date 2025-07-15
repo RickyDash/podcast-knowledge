@@ -1,0 +1,6 @@
+---
+name: Core style (Always)
+type: Always
+description: Shared AI coding standards for this repo
+---
+@docs/ai-guidelines.md
